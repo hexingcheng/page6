@@ -1,0 +1,51 @@
+.head{
+	min-width: 1100px;
+	height: 34px;
+	background-color: #ff4886;
+	padding:0 22px;
+}
+.s-logo img{
+	height: 34px;
+	width: 100px;
+}
+.addr{
+	padding-left: 26px;
+	line-height: 34px;
+	color: #85032f
+}
+.addr a{
+	color: #85032f;
+}
+.nav-list li{
+	float: left;
+	}
+.nav-list li a{
+	display: block;
+	padding: 0 12px;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+}
+.login-up li{
+	float: left;
+	color: #fff;
+}
+.login-up li a{
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	padding: 0 6px;
+}
+.yingyong{
+	padding-left: 15px;
+	background: url(../img/public/yingyong.png) no-repeat 0 center;
+}
+.setting{
+	padding-left: 13px;
+	background: url(../img/public/setting.png) no-repeat 0 center;
+}
+.partner{
+	padding-left: 15px;
+	background: url(../img/public/partner.png) no-repeat 0 center;
+}
