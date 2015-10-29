@@ -209,7 +209,7 @@
     height: 217px;
 }
 .rec-goods-info{
-    border-bottom: 1px solid #9d9d9d;
+    border-bottom: 1px dashed #9d9d9d;
     padding-bottom: 5px;
 }
 .basicinfo{
@@ -271,4 +271,151 @@
     border-radius: 3px;
     cursor: pointer;
     margin-left: 10px;
+}
+.modules{
+    margin-top: 17px;
+}
+.modules-content-wrap{
+    border-top: 2px solid #fe4885;
+}
+.modues-title{
+    height: 48px;
+    line-height: 48px;
+}
+.modules-title-text{
+    font-size: 20px;
+    color: #3a3a3a;
+}
+.modules-pic-info img{
+    width: 272px;
+}
+.modules-title-text span{
+    font-size: 12px;
+    color: #c1c1c1;
+}
+.modules-item{
+    border: 1px solid #d1d1d3;
+    float: left;
+    width: 272px;
+    height: 484px;
+}
+.modules-pic-info{
+    position: absolute;
+}
+.modules-info{
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: #000000;
+    position: absolute;
+    width: 271px;
+    height: 49px;
+}
+.modulesmarr1{
+    margin-right: 1px ;
+}
+.info-text{
+    color: #ffffff;
+    line-height: 49px;
+    text-align: left;
+    position: absolute;
+    width: 271px;
+    height: 49px;
+    bottom: 0;
+    left: 0;
+}
+.info-text a{
+    color: #ffffff;
+}
+.moduleslayout{
+    position: relative;
+    margin-top: 285px;
+}
+.modules .gotoorder{
+    margin-top: 0;
+}
+.moduleslayout .addorder{
+    position: absolute;
+    right: 9px;
+    top: 0px;
+}
+.moduleslayout .goods-intro{
+    padding-top: 10px;
+}
+.moduleslayout .rec-buyer-info{
+    margin-left: 10px;
+}
+.pages{
+
+    margin-top: 38px;
+}
+.pagewrap{
+    width: 510px;
+    margin: 0 auto;
+}
+.pagewrap a{
+    color: #3e3e3e;
+    border: 1px solid #cccccc;
+    float: left;
+    padding: 6px 10px;
+}
+.pagewrap span{
+    color: #3e3e3e;
+    float: left;
+    padding: 6px 10px;
+}
+.pagewrap span input{
+    height: 21px;;
+    width: 30px;
+}
+.pagewrap a:hover{
+    background-color: #fe4885;
+}
+.marr5{
+    margin-right: 5px;
+}
+.ads1 img{
+    width: 1100px;
+}
+.ads1{
+    margin: 36px 0 17px 0;
+}
+.contactlist{
+    width: 275px;
+    float: left;margin-top: 66px;
+    text-align: center;
+}
+.contactlist h2{
+    color: #666666;
+    line-height: 33px;
+}
+.contactlist a{
+    line-height: 20px;
+    color: #666666;
+}
+.footer{
+    margin-top: 55px;
+    height: 83px;
+    background-color: #eeeeee;
+}
+.link{
+   padding-top: 30px;
+}
+.link span{
+    color: #a8a8a8;
+    border-right: 1px solid #a8a8a8;
+    padding: 0 10px;
+}
+.friendly{
+    padding-top: 10px;
+}
+.friendly span{
+    padding: 10px 10px;
+    color: #a8a8a8;
+}
+.copyright{
+    line-height: 83px;
+    color: #8c8c8c;
+    font-size: 12px;
 }
