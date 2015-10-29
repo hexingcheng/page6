@@ -1,0 +1,19 @@
+.navlist{
+    height: 38px;
+    border-bottom: 2px solid #de004b;
+}
+.navlisttext{
+    height: 38px;
+}
+.ullist li{
+    padding: 0 21px;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+}
+.ullist li a{
+    color: #494949;
+}
+.ullist li .spe{
+    color: #ff4886;
+}
