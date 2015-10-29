@@ -23,6 +23,14 @@
 .white {
     color: #fff;
 }
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 40px solid #ff4785;
+    border-bottom: 20px solid transparent;
+}
+
 /* 全局样式 */
 .content-wapper {
     width: 100%;
@@ -32,6 +40,9 @@
     width: 1100px;
     margin: 0 auto;
 }
+
+
+
 /* 搜索框部分 */
 .search-box {
     height: 60px;
@@ -174,6 +185,68 @@
     padding-left: 8px;
     font-size: 18px;
 }
+
+
+/* 导航栏右边公告部分 */
+.nav-right-box {
+	    width: 250px;
+    height: 350px;
+}
+.nav-right-box .tap-check-item {
+	    height: 150px;
+}
+.tap-check-item .check-group {
+	    height: 40px;
+    line-height: 40px;
+}
+.tap-check-item .check-group .tap-btn:first-child {
+	margin-left: 0;
+}
+.tap-check-item .check-group .tap-btn {
+	    display: block;
+    float: left;
+    width: 82px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+.tap-check-item .check-msg {
+	
+}
+.tap-check-item .check-msg .tap-item {
+	    padding-left: 10px;
+}
+.tap-check-item .check-msg .tap-item li {
+	    list-style-type: square;
+    font-size: 13px;
+    list-style-position: inside;
+}
+.nav-right-box .nav-grid-group {
+	
+}
+.nav-grid-group .grid-item {
+	
+}
+.nav-grid-group .grid-item .grid-obj {
+	
+}
+.nav-grid-group .grid-item .grid-text {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
