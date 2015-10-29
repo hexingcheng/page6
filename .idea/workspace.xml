@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b2376f2-100f-45c3-a5c5-4f46d0405e15" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.html" afterPath="$PROJECT_DIR$/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-one.html" afterPath="$PROJECT_DIR$/page-one.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6b2376f2-100f-45c3-a5c5-4f46d0405e15" name="Default" comment="" />
     <ignored path="page6.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -233,7 +229,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="98" width="1486" height="744" extended-state="0" />
+    <frame x="55" y="98" width="1486" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17403315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
