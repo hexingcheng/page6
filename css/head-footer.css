@@ -20,7 +20,7 @@
 	float: left;
 	}
 .nav-list li a{
-	display: block;
+	float: left;
 	padding: 0 12px;
 	height: 34px;
 	line-height: 34px;
@@ -31,7 +31,7 @@
 	color: #fff;
 }
 .login-up li a{
-	display: block;
+	float: left;
 	height: 34px;
 	line-height: 34px;
 	color: #fff;
@@ -104,6 +104,26 @@
 .carpic{
 	margin: 5px 10px 0 11px;
 }
+.searchtips{
+
+}
+.searchtipslist{
+	margin-left: 89px;
+}
+.searchtipslist .hots{
+	color: #ff4886;
+}
+.searchtipslist li{
+	padding-top: 8px;
+	font-size: 14px;
+	float: left;
+	color: #4a4a4a;
+}
+.searchtipslist li a{
+	padding: 8px 8px;
+	font-size: 12px;
+	color: #4a4a4a;
+}
 .carnum{
 	top: -9px;
 	right: 14px;
@@ -115,4 +135,42 @@
 	text-align: center;
 	line-height: 12px;
 	position: absolute;
+}
+.contactlist{
+	width: 275px;
+	float: left;margin-top: 66px;
+	text-align: center;
+}
+.contactlist h2{
+	color: #666666;
+	line-height: 33px;
+}
+.contactlist a{
+	line-height: 20px;
+	color: #666666;
+}
+.footer{
+	margin-top: 55px;
+	height: 83px;
+	background-color: #eeeeee;
+}
+.link{
+	padding-top: 30px;
+}
+.link span{
+	color: #a8a8a8;
+	border-right: 1px solid #a8a8a8;
+	padding: 0 10px;
+}
+.friendly{
+	padding-top: 10px;
+}
+.friendly span{
+	padding: 10px 10px;
+	color: #a8a8a8;
+}
+.copyright{
+	line-height: 83px;
+	color: #8c8c8c;
+	font-size: 12px;
 }
