@@ -1,1 +1,183 @@
-page-one.css
+/* 共有样式 */
+.bg-pink {
+    background: #ff4885;
+}
+.bg-subpink {
+    background: #ff4785;
+}
+.link-item {
+    color: #aaa;
+}
+.color-6 {
+    color: #666;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.title-color {
+    color: #434343;
+}
+.sub-color {
+    color: #ff4886;
+}
+.white {
+    color: #fff;
+}
+/* 全局样式 */
+.content-wapper {
+    width: 100%;
+    height: auto;
+}
+.content-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+/* 搜索框部分 */
+.search-box {
+    height: 60px;
+    color: #666;
+    padding: 20px 0;
+}
+.search-bar {
+    width: 300px;
+    cursor: pointer;
+}
+.search-bar .logo-box {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff4685;
+}
+.search-bar .logo-plain {
+    font-size: 18px;
+}
+.search-bar .my-cart-box {
+
+}
+.my-cart-box {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+.my-cart-box .fa-shopping-cart {
+    font-size: 18px;
+    padding: 6px;
+}
+.my-cart-box .my-cart {
+
+}
+.my-cart-box .fa-angle-right {
+    font-size: 18px;
+    padding: 6px 10px;
+}
+.search-box .search-row {
+    margin: 0 170px 0 310px;
+}
+.search-row .input-search {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f6f6f6;
+    width: 620px;
+    border: 1px solid #d6d6d6;
+}
+.input-search .search-btn {
+    padding: 6px;
+    cursor: pointer;
+}
+.input-search .search-btn .fa-search {
+
+}
+#goods-name {
+    width: 570px;
+    border: 0;
+    background-color: #f6f6f6;
+    outline: none 0;
+    margin-left: 15px;
+}
+.search-row .usal-search-bar {
+    height: 30px;
+    line-height: 30px;
+}
+.usal-search-bar .search-title {
+    color: #666666;
+}
+.usal-search-bar .search-item {
+    color: #494949;
+    padding: 0 7px;
+}
+
+/* 导航栏部分 */
+.nav-wrapper {
+
+}
+.nav-first-row {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 4px solid #de004b;
+}
+.nav-first-row .goods-all-label {
+    width: 230px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.nav-first-row .nav-link-item {
+    display: table-cell;
+    padding: 0 20px;
+}
+.nav-first-row .nav-link-item .link-item {
+    font-size: 18px;
+    color: #666;
+}
+
+.nav-second-row {
+    height: 351px;
+    overflow: hidden;
+}
+.nav-second-row .nav-left-box {
+    width: 248px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.nav-left-box .nav-box-item {
+    padding: 6px 10px;
+    border-bottom: 1px solid #ccc;
+}
+.nav-left-box .nav-box-item:hover {
+    background: #ff4783;
+}
+.nav-left-box .nav-box-item:hover .sub-title {
+    color: #fff;
+}
+.nav-left-box .nav-box-item:hover .link-item {
+    color: #fff;
+}
+.nav-left-box .nav-box-item:hover .fa-angle-right {
+    color: #fff;
+}
+.nav-left-box .nav-box-item:last-child {
+    border-bottom: 0;
+}
+.nav-box-item .sub-title {
+    font-size: 18px;
+    padding-left: 5px;
+    font-weight: 600;
+    color: #494949;
+}
+.nav-box-item .sub-type-box {
+    color: #aaa;
+}
+.nav-box-item .sub-type-box .link-item {
+    padding: 0 5px;
+}
+.nav-left-box .nav-box-item .fa-angle-right {
+    padding-left: 8px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
