@@ -49,13 +49,12 @@
     outline: none 0;
     border: none 0;
     width: 75px;
-    height: 27px;
+    height: 30px;
     color: #fff;
     background-color: #fe4885;
-    border-radius: 7px;
+    border-radius: 4px;
     cursor: pointer;
 }
-
 /* 全局样式 */
 .content-wapper {
     width: 100%;
@@ -134,6 +133,11 @@
 .nav-left-box .nav-box-item {
     padding: 6px 10px;
     border-bottom: 1px solid #ccc;
+    /*-webkit-transition: all .3s ease-in-out;*/
+    /*-moz-transition: all .3s ease-in-out;*/
+    /*-ms-transition: all .3s ease-in-out;*/
+    /*-o-transition: all .3s ease-in-out;*/
+    /*transition: all .3s ease-in-out;*/
 }
 .nav-left-box .nav-box-item:hover {
     background: #ff4783;
@@ -141,7 +145,10 @@
 .nav-left-box .nav-box-item:hover .sub-title {
     color: #fff;
 }
-.nav-left-box .nav-box-item:hover .link-item {
+.nav-left-box .nav-box-item:hover .nav-hover-box {
+    display: block;
+}
+.nav-left-box .nav-box-item:hover .sub-type-box .link-item {
     color: #fff;
 }
 .nav-left-box .nav-box-item:hover .fa-angle-right {
@@ -150,6 +157,66 @@
 .nav-left-box .nav-box-item:last-child {
     border-bottom: 0;
 }
+.nav-box-item .nav-hover-box {
+    position: absolute;
+    top: 0;
+    left: 249px;
+    width: 404px;
+    height: 330px;
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+}
+.nav-box-item .nav-hover-box .classify-item {
+    width: 180px;
+    height: 88px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.nav-hover-box .classify-item .title-bar {
+    padding: 5px 0 5px 0;
+}
+.nav-hover-box .classify-item .title-bar .link-wrap {
+
+}
+.nav-hover-box .classify-item .title-bar .title {
+
+}
+.nav-box-item .nav-hover-box .brand-box {
+    height: 110px;
+}
+.nav-hover-box .brand-box .title-row {
+    padding: 10px 0;
+}
+.nav-hover-box .brand-box .title-row .title {
+
+}
+.nav-hover-box .brand-box .img-wrap {
+    height: 45px;
+    line-height: 45px;
+    width: 400px;
+}
+.nav-hover-box .brand-box .img-wrap .img-box {
+    width: 85px;
+    text-align: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    height: 45px;
+ }
+.nav-hover-box .classify-item .link-box {
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    padding-top: 3px;
+}
+.nav-hover-box .classify-item .link-box .link-item {
+    float: left;
+    padding: 5px 7px 4px 0;
+}
+
 .nav-box-item .sub-title {
     font-size: 18px;
     padding-left: 5px;
