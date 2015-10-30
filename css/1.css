@@ -6,7 +6,7 @@
     height: 38px;
 }
 .ullist li{
-    padding: 0 21px;
+    padding: 0 10px;
     float: left;
     height: 38px;
     line-height: 38px;
@@ -16,4 +16,262 @@
 }
 .ullist li .spe{
     color: #ff4886;
+}
+.uldetail li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+.uldetail{
+    height: 60px;
+}
+.uldetail li a{
+    float: left;
+    height: 60px;
+    padding: 0 10px;
+    color: #666666;
+}
+.uldetail li .end{
+    color: #ff4a00;
+}
+.goods-show{
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+.goods-show img{
+    height: 350px;
+    width: 350px;
+}
+.small-pic{
+    position: relative;
+    cursor: pointer;
+    margin-right: 12px;
+    border: 1px solid #dddddd;
+    padding: 4px 9px;
+    float: left;
+}
+.small-pic img{
+    height: 53px;
+    width: 53px;
+}
+.goods-show-small{
+    margin-top: 22px;
+}
+.goods-show-small .now{
+    border: 1px solid #ff4a00;
+}
+.someinfo{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #9d9d9d;
+    margin-left: 20px;
+}
+.joinbasicinfo{
+    background-color: #f2f2f2;
+    margin-top: -60px;
+    border: 1px solid #dddddd;
+    width: 217px;
+    height: 516px;
+}
+.infohandle{
+    padding-left: 20px;
+}
+.infotitle{
+    height: 28px;
+    line-height: 28px;
+}
+.infotitle p{
+    color: #484848;
+    height: 20px;
+    line-height: 20px;
+}
+.infotitle a{
+    font-size: 16px;
+    color: #494949;
+}
+.old-new-price{
+    height: 42px;
+    line-height: 42px;
+}
+.now-price{
+    color: #ff4886;
+    font-size: 20px;
+}
+.old-new-price del{
+    font-size: 12px;
+}
+.processall{
+    margin: 10px 0;
+    width: 80%;
+    height: 14px;
+    background-color: #eeeded;
+    border: #d5d5d5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.process{
+    width: 30%;
+    height: 14px;
+    background-color: #ffbe3b;
+    border-radius: 8px;
+}
+.equlwidth{
+    width: 80%;
+}
+.textright p{
+    line-height: 20px;
+    text-align: right;
+}
+.tips{
+    margin-top: 12px;
+}
+.color{
+    color: #fe4885;
+}
+.endtime{
+    height: 36px;
+    line-height: 36px;
+}
+.joinchou button{
+    background-color: #fe4885;
+    height: 36px;
+    width: 100px;
+    padding: 0;
+    line-height: 36px;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.share,.zan{
+    color: #fe4885;
+}
+.share{
+    padding: 0 10px;
+}
+.care,.zan{
+    margin-right: 10px;
+}
+.getinfo{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #898989;
+    color: #ffffff;
+}
+.getdetailinfo{
+    background-color: #f2f2f2;
+}
+.infopic{
+    width: 98px;
+    height: 98px;
+    border: 1px solid #dddddd;
+    margin: 10px auto;
+}
+.addpad{
+    color: #333333;
+    font-size: 12px;
+    padding-left: 12px;
+}
+.who{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px dashed #dddddd;
+    padding-bottom: 10px;
+    margin-right: 12px;
+}
+.colorr{
+    color: #ff4a00;
+}
+.username{
+    color: #6c99ff;
+}
+.addpad .font12{
+    height: 20px;
+    line-height: 20px;
+}
+.lucky{
+}
+.getdetail{
+    background-color: #f6f6f6;
+    color: #808080;
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 4px auto 10px;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.whichterm{
+    margin-bottom: 10px;
+    float: left;
+    width: 57px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #ffffff;
+    color: #666666;
+    cursor:pointer;
+    border: 1px solid #dddddd;
+}
+.which .active{
+    border-color: #ff4a00;
+    color: #ff4a00;
+}
+.mar23{
+    margin-left: 35px;
+    margin-right: 9px;
+}
+.nextpage{
+    margin-top: 20px;
+}
+.recomand-title{
+    position: relative;
+    height: 32px;
+    border: 1px solid #e5e5e5;
+    background-color: #f6f6f6;
+    margin-top: 30px;
+}
+.title-text{
+    border-top: 2px solid #fe4885;
+    position: absolute;
+    top: -1px;
+    height: 34px;
+    line-height: 34px;
+    width: 90px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.recomand-goods{
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    padding: 15px 12px;
+}
+.recomend-goodslist{
+    float: left;
+    width: 170px;
+}
+.re-goods-info{
+    overflow: hidden;
+    height: 32px;
+    line-height: 32px;
+    color: #3c3c3c;
+}
+.re-goods-price{
+    color: #f3425e;
+}
+.re-goods-pic img{
+    width: 171px;
+}
+.mar10{
+    margin-right: 10px;
+}
+.aside{
+    width: 230px;
 }
