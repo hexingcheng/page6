@@ -72,7 +72,7 @@
 	width: 500px;
 	height: 28px;
 	border: 1px solid #cccccc;
-	margin: 47px 0 0 79px;
+	margin: 47px 0 0 60px;
 }
 .inputwrap input{
 	background-color: #f6f6f6;
@@ -105,10 +105,11 @@
 	margin: 5px 10px 0 11px;
 }
 .searchtips{
-
+	overflow: hidden;
 }
 .searchtipslist{
-	margin-left: 89px;
+	margin-left: 70px;
+	overflow: hidden;
 }
 .searchtipslist .hots{
 	color: #ff4886;
