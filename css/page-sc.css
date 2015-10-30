@@ -1,0 +1,168 @@
+.content-wapper {
+    width: 100%;
+    height: auto;
+}
+.content-container {
+
+}
+
+.nav-wrapper {
+
+}
+.nav-wrapper .show-bottom {
+    border-bottom: 4px solid #de004b;
+}
+.nav-first-row {
+    height: 50px;
+    line-height: 50px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.nav-first-row .goods-all-label {
+    width: 230px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.nav-first-row .nav-link-item {
+    display: table-cell;
+    padding: 0 20px;
+}
+.nav-first-row .nav-link-item .link-item {
+    font-size: 18px;
+    color: #666;
+}
+
+.nav-second-row {
+    height: 351px;
+    background: url(../img/slider-img.png) no-repeat center center;
+    overflow: hidden;
+}
+.nav-second-row .nav-center-box {
+    width: 1100px;
+    margin: 0 auto;
+}
+.nav-second-row .nav-left-box {
+    width: 248px;
+    border: 1px solid #ccc;
+    position: relative;
+    background-color: #fff;
+    height: 349px;
+}
+.nav-left-box .nav-box-item {
+    padding: 6px 10px;
+    border-bottom: 1px solid #ccc;
+    height: 103px;
+}
+.nav-left-box .nav-box-item:hover {
+    background: #ff4783;
+}
+.nav-left-box .nav-box-item:hover .sub-title {
+    color: #fff;
+}
+.nav-left-box .nav-box-item:hover .nav-hover-box {
+    display: block;
+}
+.nav-left-box .nav-box-item:hover .sub-type-box .link-item {
+    color: #fff;
+}
+.nav-left-box .nav-box-item:hover .fa-angle-right {
+    color: #fff;
+}
+.nav-left-box .nav-box-item:last-child {
+    border-bottom: 0;
+}
+.nav-box-item .sub-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #494949;
+    height: 30px;
+    line-height: 30px;
+}
+.nav-box-item .sub-type-box {
+    color: #aaa;
+    height: 24px;
+    line-height: 24px;
+}
+.nav-box-item .sub-type-box .link-item {
+    width: 70px;
+    display: block;
+    float: left;
+}
+.nav-left-box .nav-box-item .fa-angle-right {
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+}
+
+.goods-show-wrap {
+    width: 1100px;
+    margin: 20px auto;
+}
+.goods-show-wrap .goods-item-wrapper {
+    width: 260px;
+    border: 15px solid #fff;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+.goods-item-wrapper .goods-content-box {
+    padding: 10px 20px;
+    height: 180px;
+ }
+.goods-item-wrapper .goods-item-box {
+    height: 350px;
+    border: 1px solid #ccc;
+ }
+.goods-item-wrapper .goods-item-box .title-img {
+    width: 258px;
+    height: 150px;
+    overflow: hidden;
+}
+.goods-item-wrapper .goods-item-box .title-text {
+    padding-bottom: 5px;
+}
+.goods-item-wrapper .goods-item-box .goods-plain {
+    padding-bottom: 10px;
+}
+.goods-item-wrapper .goods-item-box .goods-buy {
+    overflow: hidden;
+}
+.goods-item-wrapper .goods-item-box .pink-btn-beside {
+    float: left;
+}
+.goods-item-wrapper .goods-item-box .goods-price {
+    font-size: 25px;
+    color: #D62929;
+    float: right;
+}
+.goods-item-wrapper .goods-item-box .other-box {
+    overflow: hidden;
+    padding: 15px 0;
+}
+.goods-item-box .other-box .item-box {
+    float: left;
+    width: 33.3%;
+}
+.goods-item-box .other-box .item-box .fa {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.goods-item-box .other-box .like {
+
+}
+.goods-item-box .other-box .like .like-num {
+    vertical-align: 2px;
+}
+.goods-item-box .other-box .comment {
+
+}
+.goods-item-box .other-box .comment .comment-num {
+
+}
+.goods-item-box .other-box .share {
+
+}
+.goods-item-box .other-box .share .share-num {
+    vertical-align: 3px;
+}
+
+
