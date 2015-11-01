@@ -275,3 +275,65 @@
 .aside{
     width: 230px;
 }
+.shopinfo{
+    background-color: #ececec;
+    border: 1px solid #cfcfcf;
+}
+.aside{
+    margin-top: 14px
+}
+.shop-headpic{
+    background-color: #ffffff;
+    padding: 5px;
+    border: 1px solid #c8c8c8;
+}
+.shop-headpic img{
+    width: 68px;
+    height: 102px;
+}
+.shop-pic-intro{
+    margin: 17px 0 0 11px;
+}
+.shops{
+    color: #494949;
+    padding-left: 9px;
+}
+.shop-name{
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+}
+.basic-info img{
+    vertical-align: middle;
+    display: inline;
+}
+.shop-handle-list{
+    float: left;
+}
+.shop-handle{
+    margin-top: 18px;
+    margin-left: 11px;
+}
+.handlewrap{
+    width: 148px;
+    margin: 0 auto;
+}
+.mar28{
+    margin-right: 28px;
+}
+.colored{
+    color: #ec4400;
+}
+.shopbtn{
+    width: 94px;
+    height: 33px;
+    margin: 16px 0px 17px 53px;
+    border: 1px solid #cdcdcd;
+    background-color: #fcfcfc;
+    color: #494949;
+    padding: 0;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+}
