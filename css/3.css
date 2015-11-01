@@ -1,0 +1,49 @@
+.nav-bar{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 3px solid #de004a;
+}
+.nav-lists li{
+    height: 40px;
+    float: left;
+    padding-right: 40px;
+    line-height: 40px;
+}
+.nav-lists li a{
+    float: left;
+    line-height: 40px;
+    color: #494949;
+}
+.nav-lists .colorred{
+    color: #ff4884;
+}
+.nav-lists img{
+    vertical-align: middle;
+    display: inline;
+}
+.aside{
+    width: 245px;
+    height: 100px;
+}
+.main{
+
+}
+.main-info{
+    padding-bottom: 34px;
+    position: relative;
+    padding-top: 10px;
+}
+.posihandle{
+    width: 226px;
+    height: 34px;
+    line-height: 34px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.main-title{
+    height: 44px;line-height: 44px;
+}
+.main-title a{
+    color: #494949;font-size: 20px;
+}
