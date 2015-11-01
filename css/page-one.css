@@ -68,6 +68,11 @@
     height: 351px;
     overflow: hidden;
 }
+.nav-second-row .center-slider {
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+}
 .nav-second-row .nav-left-box {
     width: 248px;
     border: 1px solid #ccc;
