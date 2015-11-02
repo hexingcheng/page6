@@ -1468,9 +1468,18 @@
 					<img src="img/pageone/adv-log.png" width="1100" height="90" alt=""/>
 				</div>
 
+				<!-- item-one -->
 				<div class="last-adv-bar clear">
 					<div class="adv-item-box pull-left">
-						<div class="adv-title color-6 font-size-18">折扣店 <i class="fa fa-qrcode"></i> </div>
+						<div class="adv-title color-6 font-size-18">
+							折扣店 <i class="fa fa-qrcode show-qrcode"></i>
+							<div class="qrcode-box">
+								<div class="qrcode-img-box">
+									<img src="img/qrcode.png" width="70" height="70" alt=""/>
+								</div>
+								<p class="qrcode-plain">扫描二维码</p>
+							</div>
+						</div>
 						<div class="big-obj-box">
 							<div class="img-box">
 								<img src="img/pageone/img-bar.png" width="330" height="160" alt=""/>
@@ -1502,7 +1511,15 @@
 					</div>
 
 					<div class="adv-item-box margin-left-5 pull-left">
-						<div class="adv-title color-6 font-size-18">折扣店 <i class="fa fa-qrcode"></i> </div>
+						<div class="adv-title color-6 font-size-18">
+							折扣店 <i class="fa fa-qrcode show-qrcode"></i>
+							<div class="qrcode-box">
+								<div class="qrcode-img-box">
+									<img src="img/qrcode.png" width="70" height="70" alt=""/>
+								</div>
+								<p class="qrcode-plain">扫描二维码</p>
+							</div>
+						</div>
 						<div class="big-obj-box">
 							<div class="img-box">
 								<img src="img/pageone/img-bar.png" width="330" height="160" alt=""/>
@@ -1534,7 +1551,15 @@
 					</div>
 
 					<div class="adv-item-box margin-left-5 pull-left">
-						<div class="adv-title color-6 font-size-18">折扣店 <i class="fa fa-qrcode"></i> </div>
+						<div class="adv-title color-6 font-size-18">
+							折扣店 <i class="fa fa-qrcode show-qrcode"></i>
+							<div class="qrcode-box">
+								<div class="qrcode-img-box">
+									<img src="img/qrcode.png" width="70" height="70" alt=""/>
+								</div>
+								<p class="qrcode-plain">扫描二维码</p>
+							</div>
+						</div>
 						<div class="big-obj-box">
 							<div class="img-box">
 								<img src="img/pageone/img-bar.png" width="330" height="160" alt=""/>
@@ -1566,7 +1591,15 @@
 					</div>
 
 					<div class="adv-item-box margin-top-5 pull-left">
-						<div class="adv-title color-6 font-size-18">折扣店 <i class="fa fa-qrcode"></i> </div>
+						<div class="adv-title color-6 font-size-18">
+							折扣店 <i class="fa fa-qrcode show-qrcode"></i>
+							<div class="qrcode-box">
+								<div class="qrcode-img-box">
+									<img src="img/qrcode.png" width="70" height="70" alt=""/>
+								</div>
+								<p class="qrcode-plain">扫描二维码</p>
+							</div>
+						</div>
 						<div class="big-obj-box">
 							<div class="img-box">
 								<img src="img/pageone/img-bar.png" width="330" height="160" alt=""/>
@@ -1598,7 +1631,15 @@
 					</div>
 
 					<div class="adv-item-box margin-top-5 margin-left-5 pull-left">
-						<div class="adv-title color-6 font-size-18">折扣店 <i class="fa fa-qrcode"></i> </div>
+						<div class="adv-title color-6 font-size-18">
+							折扣店 <i class="fa fa-qrcode show-qrcode"></i>
+							<div class="qrcode-box">
+								<div class="qrcode-img-box">
+									<img src="img/qrcode.png" width="70" height="70" alt=""/>
+								</div>
+								<p class="qrcode-plain">扫描二维码</p>
+							</div>
+						</div>
 						<div class="big-obj-box">
 							<div class="img-box">
 								<img src="img/pageone/img-bar.png" width="330" height="160" alt=""/>
@@ -1630,7 +1671,15 @@
 					</div>
 
 					<div class="adv-item-box margin-top-5 margin-left-5 pull-left">
-						<div class="adv-title color-6 font-size-18">折扣店 <i class="fa fa-qrcode"></i> </div>
+						<div class="adv-title color-6 font-size-18">
+							折扣店 <i class="fa fa-qrcode show-qrcode"></i>
+							<div class="qrcode-box">
+								<div class="qrcode-img-box">
+									<img src="img/qrcode.png" width="70" height="70" alt=""/>
+								</div>
+								<p class="qrcode-plain">扫描二维码</p>
+							</div>
+						</div>
 						<div class="big-obj-box">
 							<div class="img-box">
 								<img src="img/pageone/img-bar.png" width="330" height="160" alt=""/>
@@ -1660,7 +1709,6 @@
 							<a href="#" class="link-item color-c">更多>></a>
 						</div>
 					</div>
-
 				</div>
 
 			</div>
@@ -1732,5 +1780,23 @@
 				</div>
 			</div>
 		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script>
+			(function($){
+				$(function(){
+					var $showqrcode = $(".show-qrcode");
+					$showqrcode.on("mouseover", function(){
+						var $this = $(this);
+						$this.siblings(".qrcode-box").css("display", "block");
+					}).on("mouseout", function(){
+						var $this = $(this);
+						$this.siblings(".qrcode-box").css("display", "none");
+					})
+
+
+				})
+			})(jQuery)
+		</script>
 	</body>
 </html>
