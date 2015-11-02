@@ -4,6 +4,17 @@
 	background-color: #ff4886;
 	padding:0 22px;
 }
+.head a:hover{
+	text-decoration: none;
+}
+.addr img{
+	display: inline;
+	vertical-align: middle;
+}
+.h-more img{
+	display: inline;
+	vertical-align: middle;
+}
 .s-logo img{
 	height: 34px;
 	width: 100px;
@@ -57,7 +68,28 @@
 	width: 158px;
 	height: 39px;
 }
+.morelists{
+	display: none;
+	position: absolute;
+	top: 29px;
+	left: -1px;
+	z-index:10 ;
+	background-color: #ffffff;
+	right: -1px;
+	border-right: 1px solid #d1d1d3;
+	border-left: 1px solid #d1d1d3;
+}
+.morelists li{
+	border-bottom: 1px solid #d1d1d3;
+}
+.cartext a{
+	text-decoration: none;
+}
+.morelists li a{
+	color: #494949;
+}
 .h-more{
+	position: relative;
 	width: 105px;
 	height: 28px;
 	border: 1px solid #cccccc;
@@ -174,4 +206,7 @@
 	line-height: 83px;
 	color: #8c8c8c;
 	font-size: 12px;
+}
+.hide{
+	display: none;
 }
