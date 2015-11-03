@@ -261,6 +261,10 @@
     overflow: hidden;
     height: 32px;
     line-height: 32px;
+
+    margin-right: 5px;
+}
+.re-goods-info a{
     color: #3c3c3c;
 }
 .re-goods-price{
@@ -521,14 +525,18 @@
     left: 141px;
 }
 .tab-item{
+    display: none;
     width: 162px;
     margin: 10px auto;
 }
 .tabs-inner .tab-active{
-    top: 2px;
+    top: 1px;
     z-index: 100;
     line-height: 27px;
     background-color: #ffffff;
+}
+.goods-tabs .tab-actives{
+    display: block;
 }
 .tab-pic-wrap{
     border: 1px solid #e2e2e2;

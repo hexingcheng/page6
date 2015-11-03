@@ -183,6 +183,7 @@
                             <span>按价格</span>
                         </p>
                         <p class="new-all-text">新品发布</p>
+                        <div class="new hide"></div>
                         <p class="search-all-text">婚礼花艺</p>
                         <ul class="hunlist">
                             <li><a href="">精致韩式手表</a></li>
@@ -382,5 +383,37 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.search-all-text').click(function(){
+            if($(this).text()=='查看所有宝贝'){
+                if($(this).next('.anwhat').hasClass('hide')){
+                    $(this).css('background','url("./img/tree2.png") no-repeat 0 center');
+                    $(this).next('.anwhat').removeClass('hide')
+                }else{
+                    $(this).css('background','url("./img/tree3.png") no-repeat 0 center');
+                    $(this).next('.anwhat').addClass('hide')
+                }
+            }else{
+                if($(this).next('.hunlist').hasClass('hide')){
+                    $(this).css('background','url("./img/tree2.png") no-repeat 0 center');
+                    $(this).next('.hunlist').removeClass('hide')
+                }else{
+                    $(this).css('background','url("./img/tree3.png") no-repeat 0 center');
+                    $(this).next('.hunlist').addClass('hide')
+                }
+            }
+
+        });
+        $('.new-all-text').click(function(){
+            if($(this).next('.new').hasClass('hide')){
+                $(this).css('background','url("./img/tree2.png") no-repeat 0 center');
+                $(this).next('.new').removeClass('hide')
+            }else{
+                $(this).css('background','url("./img/tree3.png") no-repeat 0 center')
+                $(this).next('.new').addClass('hide')
+            }
+        })
+    </script>
 </body>
 </html>
