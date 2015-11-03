@@ -152,6 +152,10 @@
 .care,.zan{
     margin-right: 10px;
 }
+.care img,.zan img{
+    line-height: 1;
+    display: inline;
+}
 .getinfo{
     height: 40px;
     line-height: 40px;
@@ -552,17 +556,52 @@
 .item-tab{
     margin-top: 10px;
 }
+
+.addmarcontent .goods-detail-item-active{
+    display: block;
+}
+.xin img{
+    display: inline;
+}
+.ren img{
+    display: inline;vertical-align: middle;
+}
+.goods-detail-item{
+    display: none;
+}
 .goods-detail-tabs{
-    border: 1px solid #e2e2e2;height: 40px;
+    border: 1px solid #e2e2e2;
+    height: 40px;
     position: relative;
 }
-.goods-detail-tabs .goods-detail-active{
+.block{
+    cursor: pointer;
+    position: absolute;
+    right: 119px;
+    top: 0;
+    height: 40px;
+    width: 129px;
+    border-right: 1px solid #d1d1d3;
+    background-color: #f7f7f7;
+}
+.list{
+    cursor: pointer;
 
+    position: absolute;
+    right: 0;
+    width: 10px;
+    top: 0;
+    height: 40px;
+    background-color: #f7f7f7;
+}
+.goods-detail-tabs .goods-detail-active{
+    background: url("../img/down.png") no-repeat center 40px;
     border-top: 5px solid #ff4886;
     z-index: 100;
     margin-top: -5px;
 }
 .tab-conmon{
+    cursor: pointer;
     position: absolute;
     top: 0;
     background-color: #f7f7f7;
@@ -570,6 +609,7 @@
     color: #898989;
     line-height: 40px;
     padding: 0 54px;
+    border-right:1px solid  #d1d1d3;
 }
 .addmarcontent{
     position: relative;
@@ -586,7 +626,7 @@
     left: 164px;
 }
 .order-show{
-    left: 356px;
+    left: 358px;
 }
 .mian-pic{
     background-color: #eeeeee;
@@ -599,6 +639,6 @@
     padding-left: 40px;
     color: #ffffff;font-size: 20px;
 }
-.mainpic{
 
-}
+div.zoomDiv{z-index:999;position:absolute;top:0px;right:0;width:200px;height:200px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+div.zoomMask{position:absolute;background:url("../img/mask.png") repeat scroll 0 0 transparent;cursor:move;z-index:1;}

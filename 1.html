@@ -107,10 +107,12 @@
 							<li><a href="" class="end">商品详情</a></li>
 						</ul>
 					</div>
-					<div class="detail-good-show clear">
+					<div class="detail-good-show clear pull-center">
 						<div class="pull-left goods">
 							<div class="goods-show">
-								<img src="./img/1/show.png" alt=""/>
+								<a href="./img/1/show.png">
+									<img src="./img/1/show.png" alt="" class="jqzoom" rel="./img/1/show.png"/>
+								</a>
 							</div>
 							<div class="goods-show-small clear">
 								<div class="small-pic now">
@@ -161,11 +163,16 @@
 								<p>
 									简介：<span>婚纱摄影工作室婚纱摄影工作室婚纱摄影工作室婚纱摄影工作室工作室婚纱摄影工作室工作室婚纱摄影工作室</span>
 								</p>
-								<p>
-									信任：<span></span>
+								<p class="xin">
+									信任：<span>
+									<img src="./img/star.png" alt=""/>
+									<img src="./img/star.png" alt=""/>
+									<img src="./img/star1.png" alt=""/>
+									(12)
+								</span>
 								</p>
-								<p>
-									已认证
+								<p class="ren">
+									已认证 <span><img src="./img/renzheng.png" alt=""/></span>
 								</p>
 							</div>
 							<div class="infohandle">
@@ -192,16 +199,16 @@
 										<span>21</span>人已参与，赶快去参与吧，剩下<span>31</span>人次
 									</div>
 									<div class="chou">
-										<span class="color">参与就有机会抽奖！</span>抽奖一次<span>5</span>元
+										<a class="color">参与就有机会抽奖！</a>抽奖一次<span>5</span>元
 									</div>
 									<div class="endtime">
-										倒计时：<span>一天一小时</span>
+										<span class="yomibox" data="2016-09-05 00:00:11"></span>
 									</div>
 									<div class="joinchou">
 										<button>参与抽奖</button>
 										<a href="" class="share">关注(<span>56</span>)</a>
-										<a href="" class="zan">赞(<span>77</span>)</a>
-										<a href="" class="care">分享</a>
+										<a href="" class="zan"><img src="./img/zan.png" alt=""/>赞(<span>77</span>)</a>
+										<a href="" class="care"><img src="./img/fenxiang.png" alt=""/>分享</a>
 										<a href="">举报</a>
 									</div>
 								</div>
@@ -428,6 +435,8 @@
 					<div class="tab-conmon goods-homepage goods-detail-active">宝贝主页</div>
 					<div class="tab-conmon join-record">所有参与记录</div>
 					<div class="tab-conmon order-show">晒单</div>
+					<div class="tab-conmon block"></div>
+					<div class="tab-conmon list"></div>
 				</div>
 				<div class="goods-detail-item goods-detail-item-active">
 					<div class="mian-pic">
@@ -446,8 +455,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="goods-detail-item"></div>
-				<div class="goods-detail-item"></div>
+				<div class="goods-detail-item">参与记录</div>
+				<div class="goods-detail-item">晒单</div>
 			</div>
 		</div>
 	</div>
@@ -518,8 +527,11 @@
 		</div>
 	</div>
 	<script src="./js/jquery.min.js"></script>
+	<script src="./js/jquery.yomi.js"></script>
+	<script type="text/javascript" src="./js/jquery.imagezoom.min.js"></script>
 	<script src="./js/common.js"></script>
 	<script type="text/javascript">
+		$('.jqzoom').imagezoom();
 		$('.small-pic','.goods-show-small').click(function(){
 			var imgsrc = $('img',$(this)).attr('src');
 			$('.small-pic','.goods-show-small').removeClass('now');
@@ -584,6 +596,19 @@
 				'width':wid+"px",
 				'border':'0'
 			})
+		})
+		$('.whichterm','.which').click(function(){
+			$('.whichterm','.which').removeClass('active');
+			$(this).addClass('active');
+		})
+		$('.tab-conmon').click(function(){
+			if($(this).text()) {
+				var index = $(this).index();
+				$('.tab-conmon').removeClass('goods-detail-active');
+				$(this).addClass('goods-detail-active');
+				$('.goods-detail-item').removeClass('goods-detail-item-active')
+				$('.goods-detail-item').eq(index).addClass('goods-detail-item-active');
+			}
 		})
 	</script>
 </body>
