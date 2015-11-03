@@ -112,6 +112,43 @@
     height: 35px;
     line-height: 35px;
 }
+.right-detail-box .detail-classify-box .filter-box {
+    position: relative;
+}
+.right-detail-box .detail-classify-box .filter-box .classify-item .link-item:hover {
+    text-decoration: none;
+}
+ .detail-classify-box .filter-box .filter-result-box {
+    position: absolute;
+    left: -6px;
+    right: -6px;
+    border: 1px solid #ccc;
+    top: 36px;
+    background-color: #fff;
+    z-index: 100;
+    padding: 5px 20px;
+    display: none;
+}
+.detail-classify-box .filter-box .filter-result-box .link-item {
+    padding-right: 15px;
+}
+.detail-classify-box .filter-box .classify-item .fa-angle-down {
+    display: block;
+}
+.detail-classify-box .filter-box .classify-item .fa-angle-up {
+     display: none;
+}
+.right-detail-box .detail-classify-box .filter-box .classify-item:hover {
+    background: #ddd;
+}
+.right-detail-box .detail-classify-box .filter-box .classify-item:hover .fa-angle-up {
+    display: block;
+}
+.right-detail-box .detail-classify-box .filter-box .classify-item:hover .fa-angle-down {
+    display: none;
+}
+
+
 .detail-classify-box .classify-item-wrap .item-label {
     color: #ccc;
     float: left;
@@ -119,7 +156,9 @@
     padding: 0 0 0 15px;
 }
 .detail-classify-box .classify-item-wrap .classify-item {
-    padding: 0 10px;
+    padding: 0 15px;
+    float: left;
+    height: 36px;
 }
 .detail-classify-box .classify-item-wrap .classify-item .link-item {
      color: #484848;
@@ -127,7 +166,9 @@
 .detail-classify-box .classify-item-wrap .classify-item .fa {
     color: #ccc;
     position: relative;
-    left: 4px;
+    left: 5px;
+    float: right;
+    top: 12px;
 }
 .border-dashed {
     border-bottom: 1px dashed #ccc;
@@ -151,6 +192,7 @@
     width: 420px;
     height: 210px;
     overflow: hidden;
+    cursor: pointer;
 }
 .recomand-item-box .right-msg-box {
     float: left;
@@ -165,6 +207,10 @@
 .top-info .goods-title {
     font-size: 17px;
     padding: 5px 0px 5px 0;
+    cursor: pointer;
+}
+.top-info .goods-title:hover {
+    text-decoration: underline;
 }
 .top-info .div-item {
     padding: 2px 8px;

@@ -111,7 +111,11 @@
 .goods-item-wrapper .goods-item-box {
     height: 350px;
     border: 1px solid #ccc;
- }
+    cursor: pointer;
+}
+.goods-item-wrapper .goods-item-box:hover {
+    border: 1px solid red;
+}
 .goods-item-wrapper .goods-item-box .title-img {
     width: 258px;
     height: 150px;
@@ -141,6 +145,9 @@
 .goods-item-box .other-box .item-box {
     float: left;
     width: 33.3%;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
 }
 .goods-item-box .other-box .item-box .fa {
     margin-right: 5px;
