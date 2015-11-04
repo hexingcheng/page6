@@ -1,9 +1,4 @@
-﻿/** 
- * 湖南雅商网络科技有限公司
- * 倒计时插件
- * 刘文建
- */
-(function($){
+﻿(function($){
 $.fn.yomi=function(){
 	var data="";
 	var _DOM=null;
@@ -13,7 +8,7 @@ $.fn.yomi=function(){
 		data=$(dom).attr("data");
 		data = data.replace(/-/g,"/");
 		data = Math.round((new Date(data)).getTime()/1000);
-		$(_DOM).append("<ul class='yomi'><li class='split'>倒计时：</li><li class='yomiday'></li><li class='split'>天</li><li class='yomihour'></li><li class='split'>小时</li><li class='yomimin'></li><li class='split'>分</li><li class='yomisec'></li><li class='split'>秒</li></ul>")
+		$(_DOM).append("<ul class='yomi'><li class='split'>倒计时:&nbsp;</li><li class='yomiday'></li><li class='split'>天</li><li class='yomihour'></li><li class='split'>小时</li><li class='yomimin'></li><li class='split'>分</li><li class='yomisec'></li><li class='split'>秒</li></ul>")
 		reflash();
 
 	};

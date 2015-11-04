@@ -330,6 +330,8 @@
 }
 .goods-detail-box .time-box .fa-clock-o {
     font-size: 16px;
+    float: left;
+    margin-right: 5px;
 }
 .goods-detail-box .btn-row {
     text-align: right;
@@ -406,6 +408,8 @@
 }
 .bottom-info .div-item {
     padding: 2px 8px;
+    width: 253px;
+    overflow: hidden;
 }
 .bottom-info .time-box .pink-btn {
     margin-left: 10px;
@@ -445,6 +449,7 @@
 }
 .modules-pic-info img{
     width: 272px;
+    height: 283px;
 }
 .modules-title-text span{
     font-size: 12px;
@@ -458,6 +463,9 @@
 }
 .modules-pic-info{
     position: absolute;
+    width: 270px;
+    height: 283px;
+    overflow: hidden;
 }
 .modules-info{
     bottom: 0;
@@ -685,9 +693,40 @@
     width: 55px;
     text-align: center;
 }
+.time-box .yomibox .yomi {
+    color: #fff;
+}
+.yomi li.split {
+    font-size: 12px;
+}
+.yomi li {
+    font-size: 12px;
+}
+.goods-detail-box .pink-btn {
+    margin-top: 5px;
+}
+.bottom-info .div-item .yomibox {
+    float: left;
+    margin-left: -7px;
+}
+.bottom-info .div-item .fa-clock-o {
+    float: left;
+    padding-top: 8px;
+}
+.bottom-info .div-item .pink-btn {
+    float: right;
+}
+.bottom-info .time-wrap {
+    line-height: 30px;
+}
+.bottom-info .div-item .font-size-12 {
 
-
-
-
-
-
+}
+.gotoorder .yomibox {
+    float: left;
+}
+.gotoorder .fa-clock-o {
+    float: left;
+    margin-top: 13px;
+    font-size: 15px;
+}

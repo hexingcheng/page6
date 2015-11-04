@@ -334,8 +334,8 @@
                                     </span>
                                     <span class="row-label"><button class="pink-btn sure-price-range">确定</button></span>
                                     <span class="row-label show-box">
-                                        <span class="show-block btn-block"><i class="fa fa-th-large"></i></span>
-                                        <span class="show-row btn-block"><i class="fa fa-align-justify"></i></span>
+                                        <span class="show-block active btn-block" data-shape="block"><i class="fa fa-align-justify"></i></span>
+                                        <span class="show-row btn-block" data-shape="row"><i class="fa fa-th-large"></i></span>
                                     </span>
                                 </div>
 
@@ -385,7 +385,9 @@
                                         </div>
                                         <div class="time-box div-item">
                                             <i class="fa fa-clock-o color-a"></i>
-                                            <span class="font-size-12 color-a">倒计时：1天1分钟</span>
+                                            <span class="font-size-12 color-a">
+                                                <span class="yomibox" data="2015-11-30 00:00:11"></span>
+                                            </span>
                                             <button class="pink-btn">进入店铺</button>
                                         </div>
                                     </div>
@@ -420,7 +422,9 @@
                                         </div>
                                         <div class="time-box div-item">
                                             <i class="fa fa-clock-o color-a"></i>
-                                            <span class="font-size-12 color-a">倒计时：1天1分钟</span>
+                                            <span class="font-size-12 color-a">
+                                                <span class="yomibox" data="2015-11-30 00:00:11"></span>
+                                            </span>
                                             <button class="pink-btn">进入店铺</button>
                                         </div>
                                     </div>
@@ -455,7 +459,9 @@
                                         </div>
                                         <div class="time-box div-item">
                                             <i class="fa fa-clock-o color-a"></i>
-                                            <span class="font-size-12 color-a">倒计时：1天1分钟</span>
+                                            <span class="font-size-12 color-a">
+                                                <span class="yomibox" data="2015-11-30 00:00:11"></span>
+                                            </span>
                                             <button class="pink-btn">进入店铺</button>
                                         </div>
                                     </div>
@@ -490,7 +496,9 @@
                                         </div>
                                         <div class="time-box div-item">
                                             <i class="fa fa-clock-o color-a"></i>
-                                            <span class="font-size-12 color-a">倒计时：1天1分钟</span>
+                                            <span class="font-size-12 color-a">
+                                                <span class="yomibox" data="2015-11-30 00:00:11"></span>
+                                            </span>
                                             <button class="pink-btn">进入店铺</button>
                                         </div>
                                     </div>
@@ -525,7 +533,9 @@
                                         </div>
                                         <div class="time-box div-item">
                                             <i class="fa fa-clock-o color-a"></i>
-                                            <span class="font-size-12 color-a">倒计时：1天1分钟</span>
+                                            <span class="font-size-12 color-a">
+                                                <span class="yomibox" data="2015-11-30 00:00:11"></span>
+                                            </span>
                                             <button class="pink-btn">进入店铺</button>
                                         </div>
                                     </div>
@@ -560,7 +570,9 @@
                                         </div>
                                         <div class="time-box div-item">
                                             <i class="fa fa-clock-o color-a"></i>
-                                            <span class="font-size-12 color-a">倒计时：1天1分钟</span>
+                                            <span class="font-size-12 color-a">
+                                                <span class="yomibox" data="2015-11-30 00:00:11"></span>
+                                            </span>
                                             <button class="pink-btn">进入店铺</button>
                                         </div>
                                     </div>
@@ -643,6 +655,7 @@
                 </div>
             </div>
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.yomi.js"></script>
     <script>
         // 折叠框效果图
         (function($){
@@ -655,14 +668,14 @@
                 $fa = $this.find(".fa");
                 $sibling = $this.siblings(".classify-item-box");
                 $itembox.css("display", "none");
-                for(var i = 0; i < $all.size(); i++){
-                    if($all.eq(i).hasClass("fa-minus")){
-                        $all.eq(i).removeClass("fa-minus");
-                        $all.eq(i).addClass("fa-plus");
-                    }
-                }
 
                 if($fa.hasClass("fa-plus")){
+                    for(var i = 0; i < $all.size(); i++){
+                        if($all.eq(i).hasClass("fa-minus")){
+                            $all.eq(i).removeClass("fa-minus");
+                            $all.eq(i).addClass("fa-plus");
+                        }
+                    }
                     $fa.removeClass("fa-plus");
                     $fa.addClass("fa-minus");
                     $sibling.css("display", "block");
@@ -687,6 +700,26 @@
                 $(this).css("display", "block");
             }, function(){
                 $(this).css("display", "none");
+            })
+
+            var $shapbox = $(".show-box");
+            var $btn = $shapbox.find(".btn-block");
+            var $recomand = $(".recomand-item-box");
+            $btn.on("click", function(){
+                var shape = $(this).attr("data-shape");
+                $btn.removeClass("active");
+                $(this).addClass("active");
+                if(shape == "block"){
+                    $recomand.css({
+                        "width" : "810px",
+                        "height" : "210px"
+                    })
+                } else {
+                    $recomand.css({
+                        "width" : "385px",
+                        "height" : "420px"
+                    })
+                }
             })
 
         })(jQuery)

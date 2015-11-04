@@ -187,16 +187,17 @@
     padding: 10px;
     margin-top: 20px;
     border: 1px solid #ddd;
+    margin-right: 8px;
 }
 .recomand-item-box  .left-obj-box {
-    width: 420px;
+    width: 385px;
     height: 210px;
     overflow: hidden;
     cursor: pointer;
 }
 .recomand-item-box .right-msg-box {
     float: left;
-    width: 380px;
+    width: 385px;
     height: 210px;
     padding-left: 10px;
 }
@@ -278,12 +279,15 @@
     text-align: center;
     cursor: pointer;
 }
-.order-row > .row-label .show-block {
-    border-right: 1px solid #ccc;
-    background-color: #fff;
+.order-row > .row-label .active {
+    background-color: #fff !important;
     color: #fd2e02;
 }
-.order-row > .row-label .show-row {
+.order-row > .row-label .show-block {
+    border-right: 1px solid #ccc;
+}
+.order-row > .row-label .show-row,
+.order-row > .row-label .show-block {
     background-color: #f5f5f5;
 }
 .hot-label-box {
@@ -314,3 +318,22 @@
     cursor: pointer;
     padding: 0 3px;
 }
+.time-box .fa-clock-o {
+    float: left;
+    font-size: 16px;
+    width: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+.time-box .yomibox {
+    float: left;
+    margin-left: -5px;
+}
+
+
+
+
+
+
+
+
